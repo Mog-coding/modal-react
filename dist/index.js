@@ -1,2 +1,2 @@
-import ModalReact from './components/ModalReact';
-export { ModalReact };
+import ModalComp from './components/ModalComp';
+export { ModalComp };

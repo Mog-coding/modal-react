@@ -1,5 +1,5 @@
 import React from 'react';
-import "./ModalReact.css";
+import "./ModalComp.css";
 
 export default function ModalComp({ onClose }) {
     return (

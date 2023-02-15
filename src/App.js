@@ -1,4 +1,4 @@
-import ModalComp from "./lib/components/ModalReact";
+import ModalComp from "./lib/components/ModalComp";
 
 function App() {
   return (
