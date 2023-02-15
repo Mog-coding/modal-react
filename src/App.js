@@ -14,8 +14,7 @@ export default function App() {
 
   return (
     <div>
-        {isClicked && <ModalComp onClose={closeModal} content={"Content of modal"} 
-        modalStyle={{backgroundColor:'white', width:'35%' }}/> }
+        {isClicked && <ModalComp onClose={closeModal} /> }
         <button
         onClick={handleClick}
         >Clic to open modal</button>
