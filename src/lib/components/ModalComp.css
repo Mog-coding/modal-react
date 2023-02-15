@@ -13,10 +13,10 @@
 }
 .modalComp__content {
     position: relative;
-    background: white;
-    width: 400px;
+    width: 35%;
     height: 50px;
     text-align: center;
+    background-color: white;
     border-radius: 20px;
     box-shadow: 2px 1px 15px grey;
     animation-name: animatetop;
