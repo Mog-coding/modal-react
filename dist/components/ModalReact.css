@@ -1,0 +1,52 @@
+.modalComp {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+}
+.modalComp__content {
+    position: relative;
+    background: white;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 1px 15px grey;
+    animation-name: animatetop;
+    animation-duration: 0.3s;
+}
+.modalComp__content p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 14px;
+}
+.modalComp__button {
+    position: absolute;
+    right: -5px;;
+    top: -5px;
+    width: 38px;
+    height: 38px;
+    transition: all 200ms;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2em;
+    background-color: black;
+    border: none;
+    border-radius: 50%; 
+}
+.modalComp__button:hover{
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 1px 4px black;
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity:0}
+    to {top:0; opacity: 1}
+}
