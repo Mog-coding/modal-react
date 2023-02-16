@@ -1,5 +1,5 @@
 # Morgand's Simple React modal
-This is a student's project of modal.
+This is a student's project of modal using Create React App.
 
 ## Install
     npm install @morgand/modal-react
@@ -38,20 +38,21 @@ It is also required to declare function closeModal() in the modal's parent with 
 
 ## Props
 ### ○ required
-     <ModalComp onClose={closeModal} /> 
-     // Required props with reference of function closeModal() in order to close modal (function closeModal() must be declared in modal component's parent).
+     onClose={closeModal} 
+     // Required props with reference of function closeModal().
+     // function closeModal() must be declared in modal component's parent.
 
 ### ○ not required
-    <ModalComp modalContent={"My custom content"} />
+    modalContent={"My custom content"}
     // Allow custom content.
 
-    <ModalComp modalStyle={{backgroundColor:'white', width:'35%' }}> 
+    modalStyle={{backgroundColor:'white', width:'35%' }} 
     // Allow to customise modal's style.
 
-    Props buttonStyle
+    buttonStyle={{color:'green'}}
     // Allow to customise close button.
 
-    Props containerStyle
+    containerStyle={{color:'green'}}
     // Allow to customise component's container.
 
 ## Import modal component
