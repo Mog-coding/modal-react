@@ -63,7 +63,7 @@ It is also required to declare function closeModal() in the modal's parent with 
         return (
             <div style={containerStyle} className="modalComp">
                 <div style={modalStyle} className="modalComp__content">
-                    <p>{modalContent ? modalContent : "Modal content"}</p>
+                    { modalContent && <p>{modalContent}</p>}
                     <button style={buttonStyle} className="modalComp__button"
                         onClick={() => onClose()}>X</button>
                 </div>
