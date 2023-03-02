@@ -11,10 +11,10 @@
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(4px);
 }
+
 .modalComp__content {
     position: relative;
     width: 35%;
-    height: 50px;
     text-align: center;
     background-color: white;
     border-radius: 20px;
@@ -22,14 +22,18 @@
     animation-name: animatetop;
     animation-duration: 0.3s;
 }
+
 .modalComp__content p {
     font-size: 1.2em;
     font-weight: bold;
     margin: 14px;
+    padding: 0 20px;
 }
+
 .modalComp__button {
     position: absolute;
-    right: -5px;;
+    right: -5px;
+    ;
     top: -5px;
     width: 38px;
     height: 38px;
@@ -38,9 +42,16 @@
     font-size: 1.2em;
     background-color: black;
     border: none;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
-.modalComp__button:hover{
+
+.modalComp__button:hover {
     background-color: rgb(50, 50, 50);
     box-shadow: 0px 1px 4px black;
+}
+
+@media screen and (max-width: 500px) {
+    .modalComp__content p {
+        font-size: 1em;
+    }
 }
