@@ -1,8 +1,9 @@
 {
   "name": "@morgand/modal-react",
-  "description": "",
-  "keywords": [],
+  "description": "student modal for react",
+  "keywords": ["react", "modal", "student"],
   "version": "2.4.0",
+  "author": "morgand@tutamail.com",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
